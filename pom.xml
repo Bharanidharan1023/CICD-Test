@@ -23,10 +23,12 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/Bharanidharan1023/CICD-Test</developerConnection>
+        <connection>scm:git:https://github.com/Bharanidharan1023/CICD-Test.git</connection>
+        <developerConnection>scm:git:https://github.com/Bharanidharan1023/CICD-Test.git</developerConnection>
         <url>https://github.com/Bharanidharan1023/CICD-Test</url>
-        <tag>Nexus-Test</tag>
+        <tag>HEAD</tag>
     </scm>
+
 
     <build>
         <plugins>
