@@ -4,7 +4,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>Nexus_Test_Project</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
@@ -25,7 +25,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/Bharanidharan1023/CICD-Test</developerConnection>
         <url>https://github.com/Bharanidharan1023/CICD-Test</url>
-        <tag>Nexus_Test_Project-1.0.1</tag>
+        <tag>Nexus-Test</tag>
     </scm>
 
     <build>
