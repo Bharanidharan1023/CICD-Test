@@ -6,7 +6,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>Nexus_Test_Project</artifactId>
-    <version>1.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
@@ -22,8 +22,23 @@
             <version>1.18.34</version>
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com/Bharanidharan1023/CICD-Test</developerConnection>
+        <url>https://github.com/Bharanidharan1023/CICD-Test</url>
+        <tag>Nexus-Test</tag>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.0-M1</version>
+            </plugin>
+        </plugins>
+    </build>
 
 
     <distributionManagement>
